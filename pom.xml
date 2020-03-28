@@ -34,12 +34,13 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <localCheckout>true</localCheckout>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:daxwann/Spring_PetClinic.git</developerConnection>
+        <developerConnection>scm:git:file://.</developerConnection>
     </scm>
 </project>
