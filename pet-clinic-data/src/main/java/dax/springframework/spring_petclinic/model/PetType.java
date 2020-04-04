@@ -1,6 +1,6 @@
 package dax.springframework.spring_petclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
   private String name;
 
   public String getName() {
